@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0; 
+    background-color: lightgray;
 }
 
 body{
@@ -11,8 +12,8 @@ body{
 }
 
 #header{
-    background-color: #ff2424;
-    color: #333333;
+    background-color: #333333;
+    color: red;
     text-align: center;
     min-height: 130px;
  }
@@ -33,16 +34,16 @@ body{
 
 .navigationMenu li {
     display: inline-block;
-    color: #333333;
+    color: white;
     text-decoration: underline;
     margin: 7px;
     font-size: 25px;
 }
 
 #navBox{
-    background-color: #ff2424;
+    background-color: #333333;
     float: right;
-    color: #333333;
+    color: white;
     text-align: center;
     min-height: 50px;
     margin-top: 10px;
