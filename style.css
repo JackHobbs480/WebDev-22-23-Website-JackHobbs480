@@ -1,1 +1,48 @@
+html{
+    margin: 0;
+    padding: 0; 
+}
 
+body{
+    font-family:Arial;
+    font-weight: 400;
+    margin: 10px;
+    padding: 0;
+}
+
+#header{
+    background-color: #BD0000;
+    color: white;
+    text-align: center;
+    min-height: 130px;
+ }
+
+ #title{
+    text-decoration: underline;
+    font-family: tahoma; 
+    font-weight: 700; 
+    font-size: 38px; 
+    padding-top: 20px;
+}
+
+ .navigationMenu ul {
+    list-style-type: none;
+}
+
+.navigationMenu li {
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    margin: 7px;
+    font-size: 25px;
+}
+
+#navBox{
+    background-color: #ff2424;
+    float: right;
+    color: white;
+    text-align: center;
+    min-height: 50px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
