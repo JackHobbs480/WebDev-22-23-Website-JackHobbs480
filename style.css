@@ -12,7 +12,7 @@ body{
 
 #header{
     background-color: #BD0000;
-    color: white;
+    color: #333333;
     text-align: center;
     min-height: 130px;
  }
@@ -27,11 +27,13 @@ body{
 
  .navigationMenu ul {
     list-style-type: none;
+    font-family:Arial;
+    font-weight: 400;
 }
 
 .navigationMenu li {
     display: inline-block;
-    color: white;
+    color: #333333;
     text-decoration: underline;
     margin: 7px;
     font-size: 25px;
@@ -40,7 +42,7 @@ body{
 #navBox{
     background-color: #ff2424;
     float: right;
-    color: white;
+    color: #333333;
     text-align: center;
     min-height: 50px;
     margin-top: 10px;
