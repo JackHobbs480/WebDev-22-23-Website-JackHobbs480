@@ -56,8 +56,16 @@ body{
     width: 65%;
 }
 
+#introduction{
+    text-align: center;
+}
+
 #navigation{
     padding-left:25px;
     font-family:Arial;
     font-weight:400;
+}
+
+iframe{
+    text-align: center;
 }
