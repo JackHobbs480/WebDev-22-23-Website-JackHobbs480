@@ -32,9 +32,12 @@ body{
     font-weight: 400;
 }
 
+a{
+    color:white;
+}
+
 .navigationMenu li {
     display: inline-block;
-    color: white;
     text-decoration: underline;
     margin: 7px;
     font-size: 25px;
@@ -43,7 +46,6 @@ body{
 #navBox{
     background-color: #333333;
     float: right;
-    color: white;
     text-align: center;
     min-height: 50px;
     margin-top: 17px;
@@ -56,6 +58,8 @@ body{
     background-color: #333333;
     color: white;
     width: 65%;
+    margin-left: 60px;
+    margin-top: 17px;
 }
 
 #introduction{
@@ -79,9 +83,10 @@ body{
     display: flex;
 }
 
+/*
 @media screen and (max-width: 600px) {
     #navBox{
         background-color: purple;
     }
-    
-}
+*/
+
