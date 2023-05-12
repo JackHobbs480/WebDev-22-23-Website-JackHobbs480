@@ -96,10 +96,11 @@ padding-top: 50px;
     justify-content: space-evenly;
 }
 
-/*
-@media screen and (max-width: 600px) {
-    #navBox{
-        background-color: purple;
-    }
-*/
-
+.performance{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: tahoma; 
+    font-weight: 700; 
+    font-size: 38px; 
+}
