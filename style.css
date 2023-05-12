@@ -18,7 +18,7 @@ body{
     100%    {background-color: lightgray;}
 }
 
-#header{
+.header{
     background-color: #333333;
     color: red;
     text-align: center;
@@ -64,7 +64,7 @@ padding-top: 50px;
     margin-left: 90px;
 }
 
-#intro{
+.intro{
     background-color: #333333;
     color: white;
     width: 65%;
@@ -74,12 +74,6 @@ padding-top: 50px;
 
 #introduction{
     text-align: center;
-}
-
-#navigation{
-    padding-left:25px;
-    font-family:Arial;
-    font-weight:400;
 }
 
 .videoContainer{
@@ -94,13 +88,23 @@ padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .performance{
+    background-color: #333333;
+    margin-top: 40px;
     display: flex;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: white;
     font-family: tahoma; 
     font-weight: 700; 
-    font-size: 38px; 
+    font-size: 20px; 
 }
+
+#breakthrough{
+    align-content: center;
+}
+
+
